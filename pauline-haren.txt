@@ -1,1 +1,91 @@
-https://codepen.io/pauline-haren/pen/LYNzVqy
+Link to codepen: https://codepen.io/pauline-haren/pen/ExKbMVV
+
+
+    1. What is Semantic HTML? 
+	Semantic HTML is meaningful coding that means something to both the browser and dev.
+    2. What is HTML used for?
+	 HTML is used to create pages and to be read on the web.
+    3. What is an attribute and where do we put it? 
+	An attribute gives additional info to elements. They are placed in the start tag.
+	For ex. <a href="https://www.google.com"></a>. Href is the attribute to the anchor element.	 
+    4. What is the h1 tag used for? How many times should I use it on a page?
+	The h1 is basically the title of the page. It should only be used once.
+    5. Name two tags that have required attributes
+	img and a.
+    6. What do we put in the head of our HTML document?
+	 <!DOCTYPE html>
+    7. What is an id? 
+	It is an attribute that is specific to one element.
+    8. What elements can I add an id to? 
+	You can add it to headers, p, span, etc.
+    9. How many times can I use the same id on a page? 
+	It can only be used for one element.
+    10. What is a class? 
+	An attribute that can be called to multiple elements.
+    11. What elements can I add a class to? 
+	Same as an id, such as headers, p, span, and etc.
+    12. How many times can I use the same class on a page? 
+	As many as you want.
+    13. How do I get my link to open in a new tab?
+	<a href="../html-link.htm" target="_blank">Open In New Tab</a>
+    14. What is the alt attribute in the image tag used for? 
+	If the image cannot be shown, the alt attibute provides a text for the image.
+    15. How do I reference an id?
+	#id
+    16. What is the difference between a section and a div
+	A section specifies a section on a page, where a div just creates a division between code or content.
+    17. What is CSS used for? 
+	CSS is used to style a page.
+    18. How to we select an element? Example - every h2 on the page
+	h2 {
+	color: blue;	
+	}
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+	An ID would only be used to reference one thing. For example if you need to have only one element specified,
+	you would use an id. If you plan to have multiple elements with the same style, you would use a class to specify
+	them.
+    20. How do we select classes in CSS?
+	.class
+    21. How do we select a p element with a single class of “human””?
+	p.human
+    22. What is a parent child selector? When would this be useful? 
+	This selector selects all elements that are a direct child of an element. This can be used to
+	select all elements in a parent selector to make certain changes to these specific elements.
+    23. How do you select all links within a div with the class of sidebar?
+	div.sidebar
+    24. What is a pseudo selector?
+	A pseudo selector is a selector that selects an element in a specific state, like hover.
+    25. What do we use the change the spacing between lines?
+	line-height:
+    26. What do we use to change the spacing between letters?
+	letter-spacing:
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+	{text-transform: ;}
+    28. How do I add a 1px border around my div that is dotted and black?
+	div {
+	 border: 1px dotted black;
+	}
+    29. How do I select everything on the page? 
+	*
+    30. How do I write a comment in CSS?
+	/* Like this */
+	
+    31. How do I find out what file I am in, when I am using the command line? 
+	pwd
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+	$ ls
+    33. How do I remove a file via the command line? Why do I have to be careful with this?
+	$ rm There is no prompt asking if you are sure you want to remove the item. It will just do it. 
+    34. Why should I use version control? 
+	To be able to make your own changes without affecting others, unless you want it to. It also
+	tracks the changes that are being made.
+    35. How often should I commit to github?
+	After every single point of change.
+    36. What is the command we would use to push our repo up to github? 
+	$ git push origin -u file-name
+    37. Walk me through Lambda's git flow. 
+	Fork, clone, branch, pull, push, delete branch once merged.
+
+
+
+   --> 
